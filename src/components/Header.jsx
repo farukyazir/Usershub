@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({setShowForm}) => {
   return (
     <div className='main-header'>
       <div className='header-container'>
@@ -10,8 +10,8 @@ const Header = () => {
           <p>Add and view user details easily</p>
         </div>
       </div>
-      <div className='addBtn'>
-        <button>Add User</button>
+      <div className='add-Btn'>
+        <button onClick={()=>setShowForm(true)}>Add User</button>
       </div>
       
     </div>

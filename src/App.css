@@ -26,7 +26,7 @@
 .header-details {
     color: white;
 }
-.addBtn button{
+.add-Btn button{
     padding: 10px;
     margin-top: 10px;
     border-radius: 5px;
@@ -34,6 +34,150 @@
     background-color: rgb(177, 151, 252);
     color: white;
 }
-.addBtn button:hover{
+.add-Btn button:hover{
     cursor: pointer;
+    background-color: rgb(98, 81, 145);
+
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.userform{
+    margin: 10px;
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+     width: 50%;   
+     padding: 10px;  
+     border-radius: 10px;
+}
+.userform-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-container,
+.age-container,
+.email-container,
+.mobile-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 5px;
+    margin-top: 10px;
+}
+.btn-container{
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    gap: 10px;
+}
+.cancelBtn{
+    padding: 5px;
+    width: 80px;
+     border-radius: 5px;
+     border: 1px solid grey;
+}
+.addBtn{
+    padding: 5px;
+    width: 80px;
+    background-color: rgb(96, 50, 235);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.addBtn:hover{
+    cursor: pointer;
+    background-color: rgb(175, 162, 212);
+}
+.cancelBtn:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.name-container input,
+.age-container input,
+.email-container input,
+.mobile-container input{
+    width: 100%;
+    padding: 5px;
+    margin-left: 30px;
+}
+.userdata-header{
+    padding: 10px;
+}
+.userdetails-container{
+     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+     width: 300px;
+     margin: 10px 20px;
+     padding: 20px;
+     border-radius: 10px; 
+}
+.user-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}
+.all-cards{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+        height: auto;
+
+}
+.all-card{
+    display: flex;
+}
+.editbtn-container{
+    text-align: right;
+}
+.editBtn{
+    margin-top: 10px;
+    padding: 5px;
+    width: 80px;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.editBtn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.trash-icon{
+    color:red;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+.trash-icon:hover{
+    color: black;
+    transform: scale(1.2);
+}
+.edit-userdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+    
+}
+.edit-userdetails button{
+    width: 80px;
+    margin: 0 90px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:rgb(98, 214, 98);
+    border: none;    
+}
+.edit-userdetails button:hover{
+    background-color: rgb(40, 110, 40);
 }
